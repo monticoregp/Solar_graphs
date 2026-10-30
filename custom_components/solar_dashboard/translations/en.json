@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Solar Dashboard",
+        "description": "URL of the JSON endpoint on your server that returns daily kWh totals (see README).",
+        "data": {
+          "url": "Endpoint URL",
+          "token": "Bearer token (optional)",
+          "scan_interval": "Refresh interval (minutes)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the server at that URL.",
+      "invalid_data": "The server responded, but not with a recognised list of daily totals."
+    },
+    "abort": {
+      "already_configured": "This endpoint is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "scan_interval": "Refresh interval (minutes)"
+        }
+      }
+    }
+  }
+}

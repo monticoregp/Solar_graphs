@@ -1,0 +1,12 @@
+{
+  "domain": "solar_dashboard",
+  "name": "Solar Dashboard",
+  "codeowners": ["@YOUR_GITHUB_USERNAME"],
+  "config_flow": true,
+  "dependencies": ["http", "frontend", "websocket_api"],
+  "documentation": "https://github.com/YOUR_GITHUB_USERNAME/solar_dashboard",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/YOUR_GITHUB_USERNAME/solar_dashboard/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
